@@ -1,5 +1,4 @@
 mountpoints:
   /:
-    url: "https://author-p64105-e536191.adobeaemcloud.com/bin/franklin.delivery/prakrutikk/eds-chefspage/main"
+    url: "https://content.da.live/prakrutikk/da-eds-chefspage/"
     type: "markup"
-    suffix: ".html"
