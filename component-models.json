@@ -142,7 +142,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "cards-article-item",
     "fields": [
       {
         "component": "reference",
@@ -161,7 +161,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "cards-brand-item",
     "fields": [
       {
         "component": "reference",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "cards-recipe-item",
     "fields": [
       {
         "component": "reference",
@@ -199,7 +199,7 @@
     ]
   },
   {
-    "id": "card",
+    "id": "cards-theme-item",
     "fields": [
       {
         "component": "reference",

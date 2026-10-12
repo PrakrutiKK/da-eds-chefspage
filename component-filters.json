@@ -15,31 +15,46 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "cards-article",
+      "cards-brand",
+      "cards-recipe",
+      "cards-theme",
+      "carousel-hero",
+      "carousel-product",
+      "carousel-recipe",
+      "columns-brand",
+      "columns-chef",
+      "columns-inspiration",
+      "hero-newsletter",
+      "hero-recipe",
+      "steps-preparation",
+      "table-ingredients",
+      "tabs-brand"
     ]
   },
   {
     "id": "cards-article",
     "components": [
-      "card"
+      "cards-article-item"
     ]
   },
   {
     "id": "cards-brand",
     "components": [
-      "card"
+      "cards-brand-item"
     ]
   },
   {
     "id": "cards-recipe",
     "components": [
-      "card"
+      "cards-recipe-item"
     ]
   },
   {
     "id": "cards-theme",
     "components": [
-      "card"
+      "cards-theme-item"
     ]
   },
   {

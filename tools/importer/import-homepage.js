@@ -199,12 +199,17 @@ export default {
     WebImporter.rules.adjustImageUrls(main, url, params.originalURL);
 
     // 6. Generate sanitized path
+    // AEM page name is /homepage, but the real source page is the site root.
+    // Expose the true source URL so the package builder fetches images from
+    // the correct origin instead of the non-existent /homepage URL.
     const path = '/homepage';
+    const sourceUrl = params.originalURL || url;
 
     return [{
       element: main,
       path,
       report: {
+        sourceUrl,
         title: document.title,
         template: PAGE_TEMPLATE.name,
         blocks: pageBlocks.map(b => b.name),

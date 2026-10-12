@@ -50,7 +50,22 @@
         "hero",
         "cards",
         "columns",
-        "fragment"
+        "fragment",
+        "cards-article",
+        "cards-brand",
+        "cards-recipe",
+        "cards-theme",
+        "carousel-hero",
+        "carousel-product",
+        "carousel-recipe",
+        "columns-brand",
+        "columns-chef",
+        "columns-inspiration",
+        "hero-newsletter",
+        "hero-recipe",
+        "steps-preparation",
+        "table-ingredients",
+        "tabs-brand"
       ]
     }
   ]

@@ -99,14 +99,14 @@
         },
         {
           "title": "Card",
-          "id": "card",
+          "id": "cards-article-item",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Card",
-                  "model": "card"
+                  "model": "cards-article-item"
                 }
               }
             }
@@ -129,14 +129,14 @@
         },
         {
           "title": "Card",
-          "id": "card",
+          "id": "cards-brand-item",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Card",
-                  "model": "card"
+                  "model": "cards-brand-item"
                 }
               }
             }
@@ -159,14 +159,14 @@
         },
         {
           "title": "Card",
-          "id": "card",
+          "id": "cards-recipe-item",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Card",
-                  "model": "card"
+                  "model": "cards-recipe-item"
                 }
               }
             }
@@ -189,14 +189,14 @@
         },
         {
           "title": "Card",
-          "id": "card",
+          "id": "cards-theme-item",
           "plugins": {
             "xwalk": {
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block/item",
                 "template": {
                   "name": "Card",
-                  "model": "card"
+                  "model": "cards-theme-item"
                 }
               }
             }

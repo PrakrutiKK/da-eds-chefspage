@@ -17,14 +17,14 @@
     },
     {
       "title": "Card",
-      "id": "card",
+      "id": "cards-recipe-item",
       "plugins": {
         "xwalk": {
           "page": {
             "resourceType": "core/franklin/components/block/v1/block/item",
             "template": {
               "name": "Card",
-              "model": "card"
+              "model": "cards-recipe-item"
             }
           }
         }
@@ -33,7 +33,7 @@
   ],
   "models": [
     {
-      "id": "card",
+      "id": "cards-recipe-item",
       "fields": [
         {
           "component": "reference",
@@ -56,7 +56,7 @@
     {
       "id": "cards-recipe",
       "components": [
-        "card"
+        "cards-recipe-item"
       ]
     }
   ]
